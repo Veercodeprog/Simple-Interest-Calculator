@@ -20,5 +20,9 @@ h1{
 input {
     display: block;
     direction: ltr;
+    border-radius: 5px;
     
   }
+title {
+  color: green;
+}
