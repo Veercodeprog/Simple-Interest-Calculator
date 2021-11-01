@@ -1,4 +1,24 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color: beige;}
+h1{
+    color:green;
+    text-align: center;
+     
+}
+.centered {
+
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    z-index: 15;
+    top: 40%;
+    left: 40%;
+    margin: -100px 0 0 -150px;
+    background: aliceblue;
+}
 
 
+input {
+    display: block;
+    direction: ltr;
+    
+  }
