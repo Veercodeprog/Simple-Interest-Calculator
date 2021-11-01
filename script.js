@@ -16,7 +16,7 @@ function sioutput()
 
     var simpleInt = parseFloat(principal.value) *(1 + parseFloat(rate.value) * parseInt(years.value) /100);
     simpleInt = simpleInt.toFixed(2);
-    if(principal.value <<= 0){
+    if(principal.value <<= 0 || principal.value.length ==0 ){
       alert("please enter a positive value of Principal");
     }
    
