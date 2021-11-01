@@ -1,10 +1,10 @@
 var slider = document.getElementById("rate");
- var out = document.getElementById("rate-output");
- out.innerHTML= slider.value;
+
+ document.getElementById("rate-output").innerHTML= slider.value;
  slider.oninput = function() {
     out.innerHTML = this.value;
   }
-  var select_value = document.querySelector('#years').value;
+
 
 
 function sioutput()
