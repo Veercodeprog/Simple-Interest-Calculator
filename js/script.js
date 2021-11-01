@@ -22,4 +22,4 @@ function sioutput()
     document.getElementById("siOutput-01").innerHTML = "If you deposit today Rs."+"<mark>"+principal.value+"</mark>"+"<br>"+"at an interest rate of "+"<mark>"+rate.value+"%."+"</mark>"+"<br>"+"You will receive an amount of Rs."+"<mark>"+simpleInt+"</mark>"+","+"<br>"+"in the year "+"<mark>"+Years+"</mark>"+"."
 
 }
-      
+   
